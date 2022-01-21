@@ -117,3 +117,13 @@ body{
   margin-left: 50px;
 }
 
+.content-container {
+  height: 400px;
+  width: 100%;
+  background-color: coral;
+}
+
+.feature-content {
+  background: url("./images/f-1.jpg");
+  height: 100%; 
+}
