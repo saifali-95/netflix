@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 50px;
+  height: 50px;
+}
+
+.logo-container {
+  flex: 2;
+  color: aliceblue;
+}
+
+.logo{
+  font-family: 'Sen', sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+.menu-container {
+  flex: 6;
+  color: aliceblue;
+  font-family: 'Sen', sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  height: 50px;
+}
+
+.menu-list-items-active{
+  margin: 15;
+  font-weight: bold;
+}
+
+.menu-list-items{
+  margin: 15;
+}
+
+.profile-container {
+  flex: 2;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  color: aliceblue;
+}
+
+.profile-text{
+  margin: 0 0 0 15px;
+}
+
+.profile-picture{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.toggle{
+  width: 50px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: aliceblue;
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.toggle-icon {
+  color: goldenrod;
+  margin-top: 2px;
+}
+
+.toggle-ball {
+  width: 20px;
+  height: 20px;
+  right: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+}
+
+.sidebar {
+  width: 50px;
+  height: 100%;
+  background-color: black;
+  color: aliceblue;
+  position: fixed;
+}
